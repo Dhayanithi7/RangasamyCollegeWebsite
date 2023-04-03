@@ -1,0 +1,298 @@
+
+    #menubar
+{
+   width: 100%;
+    height: 100px;
+    background: linear-gradient(darkblue,darkblue);
+    color: blue;
+}
+button
+{
+    margin-right: 30px;
+    margin-top: 20px;
+    float: right;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background:transparent ;
+    color: white;
+
+}
+button:hover 
+{
+    float: right;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: brown ;
+    color:black;
+
+}
+button:active
+{
+    float: right;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color:black ;
+    color: aliceblue;
+
+}
+    
+
+#imgid
+{
+   display: inline-block;
+   position: absolute;
+   z-index: -1;
+   margin-left: -560px;
+   margin-top: 50px;
+}
+
+#hd2
+{
+    width: 100%;
+    height: 5px;
+    background-color: red;
+    margin-top: 0px;
+
+}
+#hd3
+{
+    width: 100%;
+    height: 30px;
+    background-color: aqua;
+    margin-top: 30px;
+}
+#dropdown
+{
+    position: relative;
+    float: right;
+    margin-top: 0px;
+    display: inline-block;
+    z-index: 1;
+   
+
+}
+#dropdown-content
+{
+   display: none;
+   position: absolute;
+   top: 50px;
+   width: 100%;
+   overflow: none;
+   background-color: whitesmoke;
+   box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.3);
+  
+}
+#dropdown:hover #dropdown-content
+{
+    display: block;
+ 
+}
+#dropdown-content a
+{
+    display: block;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    clear: both;
+    
+}
+#dropdown-content a:hover
+{
+    color: red;
+    background-color: whites;
+   
+}
+#img23{
+    margin-left: 40px;
+    margin-top: -30px;
+    height: 250px;
+    width: 250px;
+}
+	
+         h1{
+         	color: red;
+         	text-align: left;
+         }
+          h2{
+         	color: black;
+         	text-align: center;
+         	font-weight: bold;
+         }
+         h6{
+         	font-weight: bold;
+         	font-size: 25px;
+         	color: black;
+          margin-top: 440px;
+         }
+         #gu{
+         	font-size: 22px;
+         	font-weight: 500;
+         	text-align: justify;
+         }
+         #dhay{
+         	float:right;
+         	width: 500px;
+         }
+        
+        #featur{
+        	width: 100%;
+        	height: 50%;
+        	color: black;
+        	background-color: lightsteelblue;
+        }
+        .fea-box{
+        	float: left;
+        	margin-left: 200px;
+        }
+        #img,#dhayanithi{
+        	float: left;
+          margin-left: 30px;
+          width: 350px;
+          height: auto;
+
+
+        }
+        #container22{
+        	background-color: lightskyblue;
+        	height: 500px;
+        }
+        #dropdown{
+          display: inline-block;
+        	position: relative;
+        	float: right;
+        	margin-top: 0px;
+        	
+        }
+        #dropdown-content{
+          
+          position: absolute;
+        	top: 50px;
+        	width: 100%;
+        	overflow: none;
+        	background-color: white;
+        	box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.2);
+        }
+        #dropdown:hover.dropdown-content{
+        	display: block;
+        }
+        #dropdown-content a{
+        	display: block;
+        	color:black;
+        	position: 5px;
+        	text-decoration: none;
+        }
+        #dropdown-content a:hover{
+        	color: red;
+        	background-color: whitesmok
+      }      
+        #con1,#con2,#con
+        {
+
+           font-size: 30px;
+
+        }   
+        h5{
+          font-weight: bold;
+          font-size: 25px;
+          color: black;
+        }
+    .infomes {
+    color: #3378b9;
+    border-color: #9ecaf3;
+    background-color: #dbedfd;
+     }   
+    .infomes, .errormes, .noticemes, .successmes {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: 1px solid #bbb;
+    font-size: 14px;
+}
+.message-box-wrap {
+    border: 0px solid #fff;
+    padding: 20px 20px;
+     }
+     .one_half {
+    width: 48%;
+}
+.one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth, .onecol_forty, .onecol_sixty, .onecol_thirtyfive {
+    position: relative;
+    margin-right: 4%;
+    float: right;
+}
+.one_thirdlast{
+    position: relative;
+    margin-right:4%;
+
+}
+#black1{
+    background-color: black;
+    width: 100%;
+    height: 50%;
+    color: white;
+}
+#log{
+    font-size: 23px;
+}
+#log1{
+    font-size:20px;
+    margin-right: 40px;
+}
+#con{
+    font-size: 35px;
+  
+   top: 840px;
+   left: 40px;
+
+}
+#maps{
+    width: 230px;
+    height: auto;
+}
+.a{
+    margin-top: -170px;
+    float: left;
+    margin-left: -380px;
+}
+.e{
+   margin-top: -172px;
+    float: left;
+    margin-left: -280px;
+}
+.b{
+     margin-top: -172px;
+     margin-left: -65px;
+}
+.c{
+     margin-top: -40px;
+     margin-left: -600px;
+ }
+ .h{
+    margin-top: -40px;
+    margin-left: -360px;
+ }
+ .d{
+    margin-top: -110px;
+    margin-left: -125px;
+
+ }
+ .l{
+    margin-top: -100px;
+    margin-left: -485px;
+ }
+ .g{
+    margin-top: -100px;
+    position: absolute;
+    margin-left: -230px;
+ }
+ .f{
+    margin-top: -110px;
+    margin-left: -720px;
+ }
+ #img1,{
+    width: 140px;
+    height: 80px;
+ }
